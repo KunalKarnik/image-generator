@@ -1,0 +1,25 @@
+run.config:
+  engine: nodejs
+  engine.config:
+    runtime: nodejs-8.9
+  extra_packages:
+    - GraphicsMagick
+    - roboto-fonts
+    - nginx
+  fs_watch: true
+  extra_steps:
+    - 'yarn build'
+  cache_dirs:
+    - ./node_modules
+  build_triggers:
+    - package.json
+
+web.api:
+  start:
+    nginx: nginx -c /app/config/nginx.conf
+    node: yarn start
+  routes:
+    - /
+
+data.redis:
+  image: nanobox/redis:3.2

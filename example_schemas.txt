@@ -1,0 +1,78 @@
+// const ref_data = {
+//   alpha: {
+//     a: "thisisfooalpha",
+//     b: "thisisbaralpha",
+//     c: "thisisbazalpha",
+//     d: "d",
+//     e: "e",
+//     f: "f",
+//     g: "g",
+//     h: "h",
+//     i: "i",
+//     j: "j",
+//     k: "k",
+//     l: "l",
+//     m: "m",
+//     n: "n",
+//     o: "o",
+//     p: "p",
+//     q: "q",
+//     r: "r",
+//     s: "s",
+//     t: "t",
+//     u: "u",
+//     v: "v",
+//     w: "w",
+//     x: "x",
+//     y: "y",
+//     z: "z"
+//   },
+//   beta: {
+//     foo: "thisisfoobeta",
+//     bar: "thisisbarbeta",
+//     baz: "thisisbazbeta"
+//   }
+// }
+
+
+
+// const ref_templates = {
+//   goat: {
+//     fields: {
+//       a: { x: 20, y: 30 },
+//       b: { x: 30, y: 40 },
+//       c: { x: 40, y: 50 },
+//       d: { x: 50, y: 50 },
+//       e: { x: 60, y: 60 },
+//       f: { x: 70, y: 70 },
+//       g: { x: 80, y: 80 },
+//       h: { x: 90, y: 90 },
+//       i: { x: 100, y: 100 },
+//       j: { x: 110, y: 110 },
+//       k: { x: 120, y: 50 },
+//       l: { x: 130, y: 50 },
+//       m: { x: 140, y: 50 },
+//       n: { x: 150, y: 50 },
+//       o: { x: 160, y: 50 },
+//       p: { x: 170, y: 50 },
+//       q: { x: 180, y: 50 },
+//       r: { x: 190, y: 50 },
+//       s: { x: 200, y: 50 },
+//       t: { x: 210, y: 50 },
+//       u: { x: 220, y: 50 },
+//       v: { x: 230, y: 50 },
+//       w: { x: 240, y: 50 },
+//       x: { x: 250, y: 50 },
+//       y: { x: 260, y: 50 },
+//       z: { x: 270, y: 50 }
+//     },
+//     base: {
+//       dimensions: { x: 800, y: 600 },
+//       source: "http://cdn.playbuzz.com/cdn/c1ffedc1-2f64-4503-8c91-689bb8c48218/8325ab64-99f2-4ce1-9da3-c98b8ae7e395.jpg"
+//     },
+//     style: {
+//       font: "Roboto-Regular.ttf",
+//       size: 20
+//     }
+//   }
+// }
