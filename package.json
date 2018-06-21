@@ -10,14 +10,10 @@
   },
   "dependencies": {
     "backpack-core": "^0.5.0",
-    "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "gm": "^1.23.1",
     "querystring": "^0.2.0",
-    "redis": "^2.8.0",
-    "request": "^2.83.0",
-    "uuid": "^3.2.1",
-    "yup": "^0.24.1"
+    "request": "^2.83.0"
   }
 }
