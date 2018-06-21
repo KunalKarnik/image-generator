@@ -59,3 +59,24 @@ app.get('/', (req, res) => res.send('Hello World!'));
 app.use(express.static('staticForms'));
 
 app.listen(8080, '0.0.0.0', () => console.log('App running on port 8080!'));
+
+
+
+// Serverless App with Express:
+
+/*
+module.exports = app
+
+
+app.local.js
+
+'use strict'
+const app = require('./app')
+const port = process.env.PORT || 3000
+app.listen(port, () => 
+  console.log(`Server is listening on port ${port}.`)
+)
+
+claudia generate-serverless-express-proxy --express-module app
+
+*/
